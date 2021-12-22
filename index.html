@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        var x = prompt("Введите значение x");
+        var n = prompt("Введите количество шагов");
+        var a = 0;
+        var b = 0;
+
+        for(var i = 1; i <= n; i++){
+            a = ((1**i)*(x**(2*i+1)))/(2*i+1);
+            b += a;
+        }
+
+        alert(b);
+    </script>
+</body>
+</html>
